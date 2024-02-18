@@ -13,7 +13,7 @@ const Footer = () => {
           <Link to="/">A.Sayfa</Link>
         </li>
         <li>
-          <Link to="/hakkimda">Hakkında</Link>
+          <Link to="/biyografi">Biyografi</Link>
         </li>
         <li className="footer-siir">
           <NavDropdown
