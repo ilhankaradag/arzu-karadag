@@ -38,9 +38,6 @@ const MenuBar = () => {
             <Nav.Link as={Link} to="/kitaplar">
               Kitaplar
             </Nav.Link>
-            <Nav.Link as={Link} to="/galeri">
-              Galeri
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

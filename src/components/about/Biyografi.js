@@ -9,7 +9,7 @@ const Biyografi = () => {
         <Col>
           <Image
             src="../assets/img/img-biyografi.jpg"
-            className="img-fluid"
+            className="img-fluid img-byg"
             alt="biyografi"
           />
         </Col>

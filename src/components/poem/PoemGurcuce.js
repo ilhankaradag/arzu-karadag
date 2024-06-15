@@ -1,12 +1,11 @@
-import React from 'react'
-import { Card, Col, Container, Row, Image } from 'react-bootstrap'
-import PageHeader from '../common/PageHeader'
-import Spacer from '../common/Spacer'
+import React from 'react';
+import { Card, Col, Container, Row, Image } from 'react-bootstrap';
+import Spacer from '../common/Spacer';
 
 const PoemGurcuce = () => {
   return (
     <div>
-      <PageHeader title="Gürcüce Şiirler" />
+      <h2 className="title">Gürcüce Şiirler</h2>
       <Container className="poem-zaza">
         <Row className="g-5 mt-3">
           <Card lg={6}>
@@ -324,7 +323,7 @@ const PoemGurcuce = () => {
       </Container>
       <Spacer />
     </div>
-  )
-}
+  );
+};
 
-export default PoemGurcuce
+export default PoemGurcuce;

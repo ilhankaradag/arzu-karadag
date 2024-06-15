@@ -39,10 +39,6 @@ const Footer = () => {
         <li>
           <Link to="/kitaplar">Kitaplar</Link>{' '}
         </li>
-        <li>
-          {' '}
-          <Link to="/galeri">Galeri</Link>
-        </li>
       </ul>
       <div>&copy;2024-Copyright by Arzu Karadag </div>
     </footer>

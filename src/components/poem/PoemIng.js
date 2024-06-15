@@ -1,13 +1,11 @@
-import React from 'react'
-import { Card, Col, Container, Row } from 'react-bootstrap'
-import PageHeader from '../common/PageHeader'
-import Spacer from '../common/Spacer'
+import React from 'react';
+import { Card, Col, Container, Row } from 'react-bootstrap';
+import Spacer from '../common/Spacer';
 
 const PoemIng = () => {
   return (
     <div>
-      <PageHeader title="İngilizce Şiirler" />
-
+      <h2 className="title">İngilizce Şiirler</h2>
       <Container className="poem-ing">
         <Row className="g-5 mt-3">
           <Card>
@@ -235,7 +233,7 @@ const PoemIng = () => {
         <Spacer />
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default PoemIng
+export default PoemIng;

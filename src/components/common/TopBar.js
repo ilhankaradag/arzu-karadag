@@ -20,16 +20,24 @@ const TopBar = () => {
             <Col xs={5}>
               <ul>
                 <li className="d-none d-md-block">
-                  <FiYoutube />
+                  <a href="https://www.youtube.com/channel/UCNOgF_xDiVbJEz4Iw4h5fTw">
+                    <FiYoutube />
+                  </a>
                 </li>
                 <li className="d-none d-md-block">
-                  <FiFacebook />
+                  <a href="https://www.facebook.com/karadag.arzu.siir">
+                    <FiFacebook />
+                  </a>
                 </li>
                 <li className="d-none d-md-block">
-                  <FiTwitter />
+                  <a href="https://twitter.com/arzukaradagsiir">
+                    <FiTwitter />
+                  </a>
                 </li>
                 <li className="d-none d-md-block">
-                  <FiInstagram />
+                  <a href="https://www.instagram.com/arzukaradagsiir/">
+                    <FiInstagram />
+                  </a>
                 </li>
               </ul>
             </Col>
